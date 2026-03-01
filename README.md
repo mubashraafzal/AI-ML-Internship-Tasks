@@ -37,7 +37,7 @@ Objective:
 Predict whether a patient has heart disease.
 
 Dataset:
-HeartDiseaseTrain-Test.csv
+HeartDiseaseTrain-Test Dataset
 
 Model Used:
 Logistic Regression
