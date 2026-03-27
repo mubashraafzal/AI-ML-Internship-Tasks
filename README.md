@@ -86,7 +86,7 @@ Model/Tools Used:
 LangChain, FAISS Vector Store, OpenAI or LLM, Streamlit
 
 Approach:
-Documents were loaded and split into smaller chunks. Embeddings were generated for each chunk and stored in a FAISS vector database. When a user asks a question, the system retrieves relevant chunks based on similarity search. The retrieved context is then passed to the LLM to generate a final response. The chatbot interface was deployed using Streamlit.
+Documents are loaded and split into smaller chunks. Embeddings are generated for each chunk and stored in a FAISS vector database. When a user asks a question, the system retrieves relevant chunks based on similarity search. The retrieved context is then passed to the LLM to generate a final response. The chatbot interface is deployed using Streamlit.
 
 Results:
 The chatbot successfully answers user queries based on the provided knowledge base and maintains contextual understanding during conversation.
@@ -104,7 +104,7 @@ Model/Technique Used:
 OpenAI or LLM, prompt engineering, zero-shot and few-shot learning
 
 Approach:
-Prompts were designed to classify support tickets into relevant categories. Zero-shot prompting was used initially without examples. Few-shot prompting was then applied by including example inputs and outputs to improve accuracy. The model generated the top 3 most relevant tags for each ticket.
+Prompts are designed to classify support tickets into relevant categories. Zero-shot prompting is used initially without examples. Few-shot prompting is then applied by including example inputs and outputs to improve accuracy. The model generated the top 3 most relevant tags for each ticket.
 
 Results:
 Few-shot prompting improved the accuracy of tag predictions compared to zero-shot prompting. The model successfully identified multiple relevant categories for each ticket.
