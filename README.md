@@ -74,7 +74,7 @@ Model File:
 churn_model.pkl (saved pipeline)  
 
 
-**Task 5: Context-Aware Chatbot using RAG**
+## Task 5: Context-Aware Chatbot using RAG
 
 Objective:
 Develop a chatbot that retrieves relevant information from documents and answers user queries using LangChain and Retrieval-Augmented Generation (RAG).
@@ -92,7 +92,7 @@ Results:
 The chatbot successfully answers user queries based on the provided knowledge base and maintains contextual understanding during conversation.
 
 
-**Task 6: Auto Tagging Support Tickets using LLM**
+## Task 6: Auto Tagging Support Tickets using LLM
 
 Objective:
 Automatically classify support tickets into relevant categories using Large Language Models.
